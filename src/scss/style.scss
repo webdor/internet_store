@@ -1,4 +1,20 @@
-@import "fonts";
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap&subset=cyrillic-ext");
+$fontFamily: "Roboto";
+
+// Переменные
+$minWidth: 320px;
+$maxWidth: 1920px;
+$maxWidthContainer: 1170px;
+$md1: $maxWidthContainer + 12px;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+
+
 
 body {
 	font-family: CormorantUpright;
@@ -6,4 +22,12 @@ body {
 	span {
 		color: red;
 	}
+}
+.conteiner{
+	margin: 0 auto;
+	width: 1000px;
+	border: 1px solid green;
+}
+.header{
+	color: red;
 }
