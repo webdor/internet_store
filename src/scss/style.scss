@@ -6,26 +6,36 @@ $fontFamily: "Roboto";
 
 // Переменные
 $minWidth: 320px;
-$maxWidth: 1920px;
-$maxWidthContainer: 1170px;
+$maxWidth: 1400px;
+$maxWidthContainer: 1180px;
 $md1: $maxWidthContainer + 12px;
 $md2: 991.98;
 $md3: 767.98;
 $md4: 479.98;
 
-
+.wrapper {
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	&::loaded {
+	}
+}
 
 
 body {
 	font-family: CormorantUpright;
-	font-size: 50px;
+	font-size: 18px;
 	span {
 		color: red;
 	}
 }
 .conteiner{
 	margin: 0 auto;
-	width: 1000px;
+	max-width: $maxWidthContainer + 12px;
+	padding: 0 20px;
+
 	border: 1px solid green;
 }
 .header{
