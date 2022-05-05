@@ -1,6 +1,6 @@
 @import "src/scss/normalize.scss";
 
-@import "src/scss/header.scss";
+
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap&subset=cyrillic-ext");
 $fontFamily: "Roboto";
@@ -22,7 +22,7 @@ $md4: 479.98;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	&::loaded {
+	&:loaded {
 	}
 }
 
@@ -31,7 +31,7 @@ body {
 	font-family: CormorantUpright;
 	font-size: 18px;
 	span {
-		color: red;
+		color: black;
 	}
 }
 .conteiner{
@@ -41,8 +41,8 @@ body {
 
 	border: 1px solid green;
 }
-.header{
-	color: red;
-}
+
+
+@import "src/scss/header.scss";
 
 

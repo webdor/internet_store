@@ -78,15 +78,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-body {
-  padding: 0;
-  margin: 0;
-}
-
-.header {
-  background: url("../img/phon2@1.5x.png") top no-repeat;
-}
-
 .wrapper {
   width: 100%;
   min-height: 100%;
@@ -99,7 +90,7 @@ body {
   font-size: 18px;
 }
 body span {
-  color: red;
+  color: black;
 }
 
 .conteiner {
@@ -110,5 +101,9 @@ body span {
 }
 
 .header {
-  color: red;
+  background: url("../img/phon2@1.5x.png") top no-repeat;
+}
+
+.header__top {
+  border: 1px solid red;
 }
