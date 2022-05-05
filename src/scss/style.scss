@@ -1,8 +1,11 @@
+@import "src/scss/normalize.scss";
 
-
+@import "src/scss/header.scss";
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,regular,500,700,900&display=swap&subset=cyrillic-ext");
 $fontFamily: "Roboto";
+
+
 
 // Переменные
 $minWidth: 320px;
@@ -41,3 +44,5 @@ body {
 .header{
 	color: red;
 }
+
+
